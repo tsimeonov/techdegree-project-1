@@ -57,25 +57,31 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Header-img.jpg') no-repeat top center ;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
   padding-top: 60px;
+  width: 100%;
+  height: auto;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
+  background-color: rgb(160, 156, 156);
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 3px solid white;
   transition: all .5s;
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(4deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -84,10 +90,12 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
 .location {
   background-color: #222;
   color: yellow;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
